@@ -161,6 +161,13 @@ Members of string
 
 - ``string.concat(...) returns (string memory)``: :ref:`Concatenates variable number of string arguments to one string array<string-concat>`
 
+.. index:: event members
+
+Members of event
+----------------
+
+- ``event.selector()``: The signature is defined as the canonical expression of the basic prototype without data location specifier. It is the first (left, high-order in big-endian) 32 bytes of the Keccak-256 hash of the signature of the event.
+
 
 .. index:: assert, revert, require
 

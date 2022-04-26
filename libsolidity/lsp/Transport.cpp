@@ -30,6 +30,7 @@
 #include <sstream>
 #include <string>
 
+
 #if defined(_WIN32)
 #include <io.h>
 #include <fcntl.h>
@@ -182,8 +183,10 @@ void IOStreamTransport::flushOutput()
 // {{{ StdioTransport
 StdioTransport::StdioTransport()
 {
+	#if defined(_WIN32)
 	// Attempt to change the modes of stdout from text to binary.
 	setmode(fileno(stdout), O_BINARY);
+	#endif
 }
 
 bool StdioTransport::closed() const noexcept

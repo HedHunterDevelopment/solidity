@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # pragma pylint: disable=too-many-lines
+# test line 1
 import argparse
 import fnmatch
 import functools
@@ -1066,6 +1067,9 @@ class SolidityLSPTestSuite: # {{{
 
         for item in recursive_iter(content):
             if "uri" in item and "range" in item:
+                from pprint import pprint
+                print(f"item.uri:")
+                pprint(item)
                 markers = self.get_file_tags(item["uri"][:-len(".sol")])
                 for tag, tagRange in markers.items():
                     if tagRange == item["range"]:

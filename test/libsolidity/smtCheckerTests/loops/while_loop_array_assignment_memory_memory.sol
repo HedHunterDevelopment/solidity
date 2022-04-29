@@ -30,3 +30,4 @@ contract LoopFor2 {
 // ----
 // Warning 2072: (202-217): Unused local variable.
 // Warning 2072: (225-231): Unused local variable.
+// Info 1180: Reentrancy property(ies) for :LoopFor2:\n(true || true || ((<errorCode> = 0) && ((:var 0) = (:var 1))) || true || true)\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Out of bounds access at b[0]\n

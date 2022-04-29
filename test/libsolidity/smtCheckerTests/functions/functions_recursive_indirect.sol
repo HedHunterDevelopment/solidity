@@ -23,4 +23,4 @@ contract C
 // ====
 // SMTEngine: all
 // ----
-// Info 1180: Contract invariant(s) for :C:\n(a <= 0)\n
+// Info 1180: Contract invariant(s) for :C:\n(true || (a <= 0) || true)\n(true || true || (a <= 0))\n

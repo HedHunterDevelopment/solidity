@@ -26,4 +26,4 @@ contract C {
 // SMTEngine: all
 // ----
 // Warning 6328: (315-329): CHC: Assertion violation happens here.\nCounterexample:\nx = 0, d = 0\n\nTransaction trace:\nC.constructor()\nState: x = 0, d = 0\nC.f()
-// Info 1180: Reentrancy property(ies) for :C:\n!(<errorCode> = 2)\n((!(x' >= 100) || ((x' + ((- 1) * x)) = 0)) && !(<errorCode> = 1))\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(x < 100)\n<errorCode> = 2 -> Assertion failed at assert(x == 0)\n<errorCode> = 3 -> Assertion failed at assert(x == 1)\n
+// Info 1180: Reentrancy property(ies) for :D:\n((<errorCode> = 0) && ((:var 0) = (:var 1)))\nReentrancy property(ies) for :C:\n(true || !(<errorCode> = 2))\n(true || ((!(x' >= 100) || ((x' + ((- 1) * x)) = 0)) && !(<errorCode> = 1)))\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(x < 100)\n<errorCode> = 2 -> Assertion failed at assert(x == 0)\n<errorCode> = 3 -> Assertion failed at assert(x == 1)\n

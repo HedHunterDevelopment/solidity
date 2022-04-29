@@ -13,3 +13,4 @@ contract C {
 // SMTSolvers: z3
 // ----
 // Warning 5740: (74-79): Unreachable code.
+// Info 1180: Reentrancy property(ies) for :C:\n((<errorCode> = 0) && ((:var 0) = (:var 1)))\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(x == 0)\n

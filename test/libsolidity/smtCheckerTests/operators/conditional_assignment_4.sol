@@ -23,3 +23,4 @@ contract C {
 // SMTEngine: all
 // ----
 // Warning 2072: (240-246): Unused local variable.
+// Info 1180: Contract invariant(s) for :C:\n(true || true || true || true || true)\nReentrancy property(ies) for :D:\n((<errorCode> = 0) && ((:var 0) = (:var 1)))\nReentrancy property(ies) for :C:\n(true || ((<errorCode> = 0) && ((:var 3) = (:var 7)) && (a' = a) && (x' = x) && (d' = d)) || true || true || true || true || true)\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(x == 2 || x == 1)\n

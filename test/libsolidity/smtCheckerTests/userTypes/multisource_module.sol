@@ -15,8 +15,9 @@ contract C {
 }
 // ====
 // SMTEngine: all
-// SMTIgnoreOS: macos
 // SMTIgnoreCex: yes
+// SMTIgnoreOS: macos
 // ----
 // Warning 6328: (s2.sol:259-292): CHC: Assertion violation happens here.
 // Warning 6328: (s2.sol:346-377): CHC: Assertion violation happens here.
+// Info 1180: Contract invariant(s) for s2.sol:C:\n(true || true || true || true || true)\nReentrancy property(ies) for s2.sol:C:\n(true || ((<errorCode> = 0) && ((:var 0) = (:var 1))) || true || true || true || true || true || true)\n<errorCode> = 0 -> no errors\n<errorCode> = 2 -> Assertion failed at assert(M.MyInt.unwrap(f(5)) == 5)\n<errorCode> = 3 -> Assertion failed at assert(M.MyInt.unwrap(f(5)) == 6)\n<errorCode> = 4 -> Assertion failed at assert(g(M.MyInt.wrap(1)) == 1)\n<errorCode> = 5 -> Assertion failed at assert(g(M.MyInt.wrap(1)) == 0)\n

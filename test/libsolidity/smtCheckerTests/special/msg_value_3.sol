@@ -13,4 +13,4 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
-// Info 1180: Contract invariant(s) for :C:\nlock\n
+// Info 1180: Contract invariant(s) for :C:\n(lock || true || true)\n

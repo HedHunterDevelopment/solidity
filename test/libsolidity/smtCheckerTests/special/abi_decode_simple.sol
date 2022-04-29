@@ -14,3 +14,4 @@ contract C {
 // Warning 2072: (140-150): Unused local variable.
 // Warning 2072: (152-156): Unused local variable.
 // Warning 6328: (220-236): CHC: Assertion violation happens here.
+// Info 1180: Reentrancy property(ies) for :C:\n(true || true || true || ((<errorCode> = 0) && ((:var 0) = (:var 1))) || true || true)\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(a1 == a2)\n<errorCode> = 2 -> Assertion failed at assert(a1 != a2)\n

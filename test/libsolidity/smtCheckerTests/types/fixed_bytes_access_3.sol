@@ -33,4 +33,4 @@ contract C {
 // SMTIgnoreOS: macos
 // ----
 // Warning 6368: (456-462): CHC: Out of bounds access happens here.
-// Info 1180: Contract invariant(s) for :C:\n!(a.length <= 4)\n!(a[2].length <= 2)\n
+// Info 1180: Contract invariant(s) for :C:\n(true || true || !(a.length <= 4))\n(true || true || !(a[2].length <= 2))\n(true || true || true || !(a.length <= 4))\n

@@ -26,3 +26,4 @@ contract ERC20 {
 // SMTEngine: all
 // ----
 // Warning 3944: (ERC20.sol:157-162): CHC: Underflow (resulting value less than 0) happens here.\nCounterexample:\n\namount = 1\n\nTransaction trace:\nERC20.constructor()\nERC20.transferFrom(1){ msg.sender: 0x52f6 }\n    SafeMath.sub(0, 1) -- internal call
+// Info 1180: Contract invariant(s) for Address.sol:Address:\n(true || true)\nContract invariant(s) for ERC20.sol:SafeMath:\n(true || true)\nReentrancy property(ies) for Address.sol:Address:\n((<errorCode> = 0) && ((:var 0) = (:var 1)))\nReentrancy property(ies) for ERC20.sol:SafeMath:\n((<errorCode> = 0) && ((:var 0) = (:var 1)))\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Underflow at a - b\n<errorCode> = 2 -> Underflow at a - b\n<errorCode> = 3 -> Underflow at a - b\n

@@ -19,4 +19,4 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
-// Info 1180: Contract invariant(s) for :C:\n!(m[0][1][2].length <= 3)\n
+// Info 1180: Contract invariant(s) for :C:\n(true || !(m[0][1][2].length <= 3) || true)\n(true || true || true || true)\nReentrancy property(ies) for :C:\n(((<errorCode> = 0) && ((:var 1) = (:var 3)) && (m' = m)) || true || true || true || true)\n(true || ((<errorCode> = 0) && ((:var 1) = (:var 3)) && (m' = m)) || true || true || true)\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Out of bounds access at m[0][1][2][3]\n<errorCode> = 2 -> Assertion failed at assert(y == m[0][1][2][3])\n<errorCode> = 4 -> Out of bounds access at m[0][1][2][3]\n

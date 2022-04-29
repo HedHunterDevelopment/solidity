@@ -19,4 +19,4 @@ contract C {
 // SMTEngine: all
 // SMTIgnoreOS: macos
 // ----
-// Info 1180: Contract invariant(s) for :C:\n((c <= 0) && (a <= 0) && (b <= 0))\n
+// Info 1180: Contract invariant(s) for :C:\n(((a <= 0) && (c <= 0) && (b <= 0)) || true)\n

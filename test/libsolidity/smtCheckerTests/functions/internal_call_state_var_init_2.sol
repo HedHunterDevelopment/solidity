@@ -9,3 +9,4 @@ contract c {
 // SMTEngine: all
 // ----
 // Warning 6321: (54-58): Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+// Info 1180: Reentrancy property(ies) for :c:\n((<errorCode> = 0) && ((:var 2) = (:var 5)) && (x' = x) && (b' = b))\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Overflow at x + 1\n

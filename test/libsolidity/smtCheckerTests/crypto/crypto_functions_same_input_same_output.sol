@@ -27,3 +27,4 @@ contract C {
 // ====
 // SMTEngine: all
 // ----
+// Info 1180: Contract invariant(s) for :C:\n(true || true || true || true || true || true || true || true || true)\nReentrancy property(ies) for :C:\n(true || ((<errorCode> = 0) && ((:var 0) = (:var 1))) || true || true || true || true || true || true || true || true)\n(true || true || ((<errorCode> = 0) && ((:var 0) = (:var 1))) || true || true || true || true || true || true || true)\n(true || true || true || true || ((<errorCode> = 0) && ((:var 0) = (:var 1))) || true || true || true || true || true)\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(k0 == k1)\n<errorCode> = 3 -> Assertion failed at assert(s0 == s1)\n<errorCode> = 5 -> Assertion failed at assert(r0 == r1)\n<errorCode> = 7 -> Assertion failed at assert(a0 == a1)\n

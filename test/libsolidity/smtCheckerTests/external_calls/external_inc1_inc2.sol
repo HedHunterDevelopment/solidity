@@ -27,3 +27,4 @@ contract C {
 // SMTEngine: all
 // ----
 // Warning 2018: (203-322): Function state mutability can be restricted to view
+// Info 1180: Reentrancy property(ies) for :D:\n((<errorCode> = 0) && ((:var 0) = (:var 1)))\n<errorCode> = 0 -> no errors\n<errorCode> = 2 -> Assertion failed at assert(oldX == x)\n

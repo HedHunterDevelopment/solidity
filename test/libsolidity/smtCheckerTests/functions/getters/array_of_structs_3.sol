@@ -22,3 +22,4 @@ contract D {
 // SMTEngine: all
 // ----
 // Warning 6328: (322-336): CHC: Assertion violation happens here.\nCounterexample:\nitems = [{x: 42, y: 43, arr: [0]}]\ntmp = [0]\na = 42\nb = 43\n\nTransaction trace:\nD.constructor()\nState: items = []\nD.test()
+// Info 1180: Reentrancy property(ies) for :D:\n(((<errorCode> = 0) && ((:var 1) = (:var 3)) && (items' = items)) || true || true || true || true || true || true)\n(true || true || ((<errorCode> = 0) && ((:var 1) = (:var 3)) && (items' = items)) || true || true || true || true)\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(a == 42)\n<errorCode> = 2 -> Assertion failed at assert(b == 43)\n<errorCode> = 3 -> Assertion failed at assert(b == 0)\n

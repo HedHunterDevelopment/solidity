@@ -27,4 +27,4 @@ contract C {
 // Warning 6328: (291-317): CHC: Assertion violation happens here.
 // Warning 6328: (321-347): CHC: Assertion violation happens here.
 // Warning 6328: (351-374): CHC: Assertion violation happens here.
-// Info 1180: Contract invariant(s) for :C:\n!(arr.length <= 2)\n!(arr.length <= 3)\n!(arr[2].length <= 3)\n
+// Info 1180: Contract invariant(s) for :C:\n(!(arr.length <= 3) || true || true)\n(true || true || !(arr.length <= 2))\n(true || true || !(arr.length <= 3))\n(true || true || !(arr[2].length <= 3))\n

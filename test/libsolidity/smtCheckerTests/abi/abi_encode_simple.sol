@@ -26,6 +26,7 @@ contract C {
 // Warning 6328: (298-328): CHC: Assertion violation might happen here.
 // Warning 6328: (389-419): CHC: Assertion violation might happen here.
 // Warning 6328: (492-522): CHC: Assertion violation might happen here.
+// Info 1180: Contract invariant(s) for :C:\n(true || true || true)\nReentrancy property(ies) for :C:\n(true || true || ((<errorCode> = 0) && ((:var 0) = (:var 1))) || true || true || true || true)\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(b1.length == b2.length)\n<errorCode> = 2 -> Assertion failed at assert(b1.length == b3.length)\n<errorCode> = 3 -> Assertion failed at assert(b1.length == b4.length)\n<errorCode> = 4 -> Assertion failed at assert(b1.length != b5.length)\n
 // Warning 4661: (298-328): BMC: Assertion violation happens here.
 // Warning 4661: (389-419): BMC: Assertion violation happens here.
 // Warning 4661: (492-522): BMC: Assertion violation happens here.

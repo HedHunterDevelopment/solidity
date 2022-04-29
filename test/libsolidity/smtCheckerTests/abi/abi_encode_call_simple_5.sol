@@ -23,3 +23,4 @@ contract C {
 // Warning 6368: (382-387): CHC: Out of bounds access happens here.
 // Warning 6368: (391-396): CHC: Out of bounds access happens here.
 // Warning 6328: (467-497): CHC: Assertion violation happens here.
+// Info 1180: Reentrancy property(ies) for :D:\n((<errorCode> = 0) && ((:var 0) = (:var 1)))\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(b1.length == b2.length)\n<errorCode> = 2 -> Out of bounds access at b1[0]\n<errorCode> = 3 -> Out of bounds access at b2[0]\n<errorCode> = 4 -> Assertion failed at assert(b1[0] == b2[0])\n<errorCode> = 5 -> Assertion failed at assert(b1.length == b3.length)\n

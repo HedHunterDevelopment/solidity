@@ -17,4 +17,4 @@ contract C
 // ====
 // SMTEngine: all
 // ----
-// Info 1180: Contract invariant(s) for :C:\n(true && !(a.length <= 2))\n(true && !(a[2].length <= 3))\n
+// Info 1180: Contract invariant(s) for :C:\n(true || true || (true && !(a[2].length <= 3)))\n(true || true || true || (true && !(a.length <= 2)))\n(true || true || true || true)\n(true || true || true)\n

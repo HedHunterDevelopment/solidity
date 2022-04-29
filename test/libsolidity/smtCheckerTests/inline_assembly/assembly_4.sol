@@ -13,3 +13,4 @@ contract C {
 // SMTEngine: all
 // ----
 // Warning 7737: (82-101): Inline assembly may cause SMTChecker to produce spurious warnings (false positives).
+// Info 1180: Contract invariant(s) for :C:\n(true || true || true)\nReentrancy property(ies) for :C:\n(true || ((<errorCode> = 0) && ((:var 0) = (:var 1))) || true)\n<errorCode> = 0 -> no errors\n<errorCode> = 1 -> Assertion failed at assert(x == 42)\n<errorCode> = 2 -> Assertion failed at assert(b)\n
